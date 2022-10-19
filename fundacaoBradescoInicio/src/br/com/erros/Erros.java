@@ -19,6 +19,8 @@ public class Erros {
 			System.out.println("Erro InputMismatchException");
 		} catch(Throwable e2) {
 			System.out.println("Numero, não pode ser divisivel: Erro " + e2.getMessage());
+		} finally {
+			System.out.println("Sempre sera executado esse trecho do Finally" + System.err);
 		}
 		
 		
