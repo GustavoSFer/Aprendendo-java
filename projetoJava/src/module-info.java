@@ -5,5 +5,5 @@
  * @author gustavo
  *
  */
-module fundacaoBradesco {
+module projetoJava {
 }
